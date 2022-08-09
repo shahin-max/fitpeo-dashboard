@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiOutlineCalendar, AiOutlineAreaChart, AiOutlineBarChart, AiOutlineStock, AiOutlineGooglePlus, AiOutlineCalculator, AiOutlineCodeSandbox } from 'react-icons/ai';
+import { AiOutlineCalendar, AiOutlineAreaChart, AiOutlineBarChart, AiOutlineGooglePlus, AiOutlineCalculator, AiOutlineCodeSandbox, AiOutlineEyeInvisible, AiOutlineContacts } from 'react-icons/ai';
 import { FiShoppingBag, FiEdit, FiPieChart, FiBarChart, FiCreditCard, FiStar, FiShoppingCart } from 'react-icons/fi';
 import { BsBarChart, BsBoxSeam, BsCurrencyDollar, BsShield, BsChatLeft } from 'react-icons/bs';
 import { IoMdContacts } from 'react-icons/io';
@@ -215,7 +215,7 @@ export const links = [
         icon: <IoMdContacts />,
       },
       {
-        name: 'Medical Kit',
+        name: 'medical Kit',
         icon: <RiContactsLine />,
       },
     ],
@@ -236,46 +236,46 @@ export const links = [
         icon: <FiEdit />,
       },
       {
-        name: 'Revenue Calculator',
+        name: 'revenue calculator',
         icon: <AiOutlineCalculator />,
       },
     ],
   },
   {
-    title: 'Charts',
+    title: 'Layouts',
     links: [
       {
-        name: 'line',
-        icon: <AiOutlineStock />,
+        name: 'contacts',
+        icon: <AiOutlineContacts />,
       },
       {
-        name: 'area',
+        name: 'utility',
         icon: <AiOutlineAreaChart />,
       },
 
       {
-        name: 'bar',
+        name: 'authentication',
         icon: <AiOutlineBarChart />,
       },
       {
-        name: 'pie',
+        name: 'forms',
         icon: <FiPieChart />,
       },
       {
-        name: 'financial',
+        name: 'projects',
         icon: <RiStockLine />,
       },
       {
-        name: 'color-mapping',
+        name: 'forms',
         icon: <BsBarChart />,
       },
       {
-        name: 'pyramid',
+        name: 'UI elements',
         icon: <GiLouvrePyramid />,
       },
       {
-        name: 'stacked',
-        icon: <AiOutlineBarChart />,
+        name: 'invoices',
+        icon: <AiOutlineEyeInvisible />,
       },
     ],
   },
